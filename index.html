@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	<script type="text/javascript" 	src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<title>Game</title>
+</head>
+<body>
+	<div id="searchBar">
+		<h2>Find a friend!</h2>
+		<!-- <input type="text" id="animalType"><br> -->
+		<span style="font-size:10px;">What's your zip code?</span>
+		<input type="text" id="zipCode"><br>
+		<select id="animalType">
+			<!-- <option value=""></option> -->
+			<option value="barnyard">Barnyard</option>
+			<option value="bird">Bird</option>
+			<option value="cat">Cat</option>
+			<option value="dog">Dog</option>
+			<option value="horse">Horse</option>
+			<option value="reptile">Reptile</option>
+			<option value="smallfurry">Small and furry</option>
+		</select>
+
+		<button id="getBreedList">See Breed Options</button><br>
+		<button id="petFinderSubmit">Pet Finder Submit</button>
+	</div>
+
+	<div id="animalContainer"></div>
+
+
+	<script type="text/javascript" src="./assets/petfinder.js"></script>
+</body>
+</html>

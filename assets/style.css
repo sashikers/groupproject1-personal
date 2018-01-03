@@ -1,0 +1,27 @@
+.animalDiv {
+	width: 400px;
+}
+
+.animal {
+	float: left;
+}
+
+p {
+	font-size: 12px;
+}
+
+#animalContainer {
+	margin: auto;
+}
+
+#searchBar {
+	margin: auto;
+	text-align: center;
+}
+
+#petFinderSubmit {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 5px;
+	border: solid black 2px;
+}
