@@ -23,7 +23,7 @@ function getPets() {
 		zipCode: zipCode,
 	});
 
-	var queryURL = "http://api.petfinder.com/pet.find";
+	var queryURL = "https://api.petfinder.com/pet.find";
 
 	$.ajax({
 		url: queryURL,
@@ -72,7 +72,7 @@ $(document).on("click","#petFinderSubmit",getPets);
 
 function getBreeds() {
 	console.log("getBreeds");
-	var queryURL = "http://api.petfinder.com/breed.list";
+	var queryURL = "https://api.petfinder.com/breed.list";
 	var animalType = $("#animalType").val().trim();
 
 	$.ajax({
